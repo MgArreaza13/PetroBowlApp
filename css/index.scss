@@ -99,16 +99,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.marcador{
-    img{
-        height: 100px;
-        width: 100px;
+.Contenedor{
+    //position: absolute;
+    width: 100%;
+    .tabla{
+        //position: relative;
+        //height: 100%
+        //top: 1em;
+        //right:1em; !important
+        margin-top:1em;
+        .puntaje{
+            font-size: 20px;
+        }
     }
-    h4{
-        font-size: 24px
-    }
-    .puntaje{
-        font-size: 50px
+    .cuerpo{
+        .marcador{
+            padding: 5em;
+            img{
+                height: 170px;
+                width: 170px;
+                border-radius: 50%
+            }
+            h4{
+                font-size: 20px
+            }
+            h5{
+                font-size: 14px
+            }
+        }
+        .tarjetas{
+            margin-top: 2em;
+            width: 100%;
+            
+        }
     }
 }
 
@@ -135,7 +158,7 @@ textarea {
 }
 
 .AlturaMedia{
-    height: 50%
+    height: 70%
 }
 
 .row{
@@ -145,6 +168,9 @@ textarea {
     margin-top: 3em;
 }
 
+.AlturaCompleta{
+    height: 50%;
+}
 
 
 
