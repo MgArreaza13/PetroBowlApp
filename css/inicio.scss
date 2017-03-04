@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    
     font-size: 1em;
     line-height: 1.4;
 }
@@ -116,15 +116,15 @@ textarea {
         .marcador{
             padding: 5em;
             img{
-                height: 140px;
-                width: 140px;
+                height: 170px;
+                width: 170px;
                 border-radius: 50%
             }
             h4{
                 font-size: 20px
             }
             h5{
-                font-size: 12px
+                font-size: 14px
             }
         }
         .tarjetas{
@@ -135,26 +135,50 @@ textarea {
     }
 }
 
-.butonPulsar{
-    margin-top: -0.4em;
-    padding: 0.7em 1em 1.5em 1em;
-    font-size: 4em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+//Colores*******************************************************
+.gris{
+    background: #f3f3f3;
+}
+.LetrasBlanca{
+    color: #fff
+}
+.LetraNegra{
+    color: #333;
+}
 
+.NavegacionColor{
+    background-color: #502e2e;
+}
+
+.LogoUdo{
+    margin-left: 4em;
+    width: 390px;
+    height: 400px;
+}
+
+
+//Margenes*****************************************************
 .NoMargin{
     margin: 0
 }
-
-.AlturaMedia{
-    height: 70%
-}
-
 .row{
     margin: 0
 }
@@ -162,10 +186,30 @@ textarea {
     margin-top: 3em;
 }
 
+
+//Alturas********************************************************
+.AlturaMedia{
+    height: 70%
+}
 .AlturaCompleta{
-    height: 50%;
+    height: 100%;
+}
+.ImagenNavigacion{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
 }
 
+//Posiciones******************************************************
+
+.PosicionAbsoluta{
+    position: absolute;
+}
+
+//Contenedores
+.ContenedorIzquierdo{
+    margin-top: 0.1em;
+}
 
 
 /*

@@ -81,30 +81,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.Contenedor {
-  width: 100%; }
-  .Contenedor .tabla {
-    margin-top: 1em; }
-    .Contenedor .tabla .puntaje {
-      font-size: 20px; }
-  .Contenedor .cuerpo .marcador {
-    padding: 5em; }
-    .Contenedor .cuerpo .marcador img {
-      height: 140px;
-      width: 140px;
-      border-radius: 50%; }
-    .Contenedor .cuerpo .marcador h4 {
-      font-size: 20px; }
-    .Contenedor .cuerpo .marcador h5 {
-      font-size: 12px; }
-  .Contenedor .cuerpo .tarjetas {
-    margin-top: 2em;
-    width: 100%; }
-
-.butonPulsar {
-  margin-top: 1em;
-  padding: 0.7em 1em 1.5em 1em;
-  font-size: 2.5em; }
+.contenedor {
+  margin-top: 2em; }
+  .contenedor .cuerpo {
+    padding: 2em; }
+    .contenedor .cuerpo .pregunta {
+      font-size: 24px; }
 
 /* ==========================================================================
    Helper classes

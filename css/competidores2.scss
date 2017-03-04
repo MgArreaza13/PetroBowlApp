@@ -99,47 +99,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.Contenedor{
-    //position: absolute;
-    width: 100%;
-    .tabla{
-        //position: relative;
-        //height: 100%
-        //top: 1em;
-        //right:1em; !important
-        margin-top:1em;
-        .puntaje{
-            font-size: 20px;
-        }
-    }
+.contenedor{
+    margin-top: 2em;
     .cuerpo{
-        .marcador{
-            padding: 5em;
-            img{
-                height: 140px;
-                width: 140px;
-                border-radius: 50%
-            }
-            h4{
-                font-size: 20px
-            }
-            h5{
-                font-size: 12px
-            }
-        }
-        .tarjetas{
-            margin-top: 2em;
-            width: 100%;
-            
+        padding: 2em;
+        .pregunta{
+            font-size: 24px;
         }
     }
 }
 
-.butonPulsar{
-    margin-top: 1em;
-    padding: 0.7em 1em 1.5em 1em;
-    font-size: 2.5em;
-}
 
 
 /* ==========================================================================
