@@ -107,14 +107,63 @@ textarea {
     margin-top: 3em;
 }
 
+.Formulario{
+    background-color:#000038;
+    margin: 3%;
+    opacity: 0.9;
+}
+.form{
+    margin-left: 18%;
+    margin-right: 18%;
+    /* label color */
+   .input-field label {
+     color: #f0f0f0;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #f0f0f0;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 2px solid #f0f0f0;
+     box-shadow: 0 1px 0 0 #f0f0f0;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #f0f0f0;
+     box-shadow: 0 1px 0 0 #f0f0f0;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #f0f0f0;
+     box-shadow: 0 1px 0 0 #f0f0f0;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #f0f0f0;
+   }
 
 
+}
+.btn{
+    margin: 1em;
+}
+.btn:hover{
+    background-color: #0d47a1;
+    margin: 1em;
+}
+.btn-Correo{
+    background-color:#7ec401;
+}
+.btn-Facebook{
+    background-color:#4c70ba;
+}
 .logo{
     width: 100%;
     height: auto;
     img{
-        width: 500px;
-        height: 300px;
+        width: 300px;
+        height: 170px;
     }
 }
 .page-footer{
@@ -126,8 +175,10 @@ textarea {
 
 
 
-
-
+/* ==========================================================================
+   Formulario
+   ========================================================================== */
+/*
 
 
 
@@ -141,6 +192,12 @@ textarea {
  */
 .NegroClaro-Text{
    color: #404040;
+}
+.Texto-Blaco{
+    color: #f0f0f0;
+}
+.Texto-Negro{
+    color: #404040;
 }
 
 /*
@@ -187,8 +244,7 @@ textarea {
     font-size: 20px;
 }
 .Titulo{
-    color: #404040;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /*

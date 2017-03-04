@@ -89,8 +89,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper {
+  background-color: #254061; }
+
+.nav-content {
+  background-color: #7f7f7f; }
+
 .ContedorPrincipal {
-  margin-top: 3em; }
+  margin-top: 0em;
+  margin-bottom: 3em; }
 
 .logo {
   width: 100%;
@@ -104,12 +111,27 @@ textarea {
   width: 100%; }
 
 /* ==========================================================================
+   Formulario
+   ========================================================================== */
+/*
+
+
+
+
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
  * COLORES DE TEXTOS
  */
 .NegroClaro-Text {
+  color: #404040; }
+
+.Texto-Blaco {
+  color: #f0f0f0; }
+
+.Texto-Negro {
   color: #404040; }
 
 /*
@@ -151,8 +173,7 @@ textarea {
   font-size: 20px; }
 
 .Titulo {
-  color: #404040;
-  font-size: 50px; }
+  font-size: 30px; }
 
 /*
  * Hide visually and from screen readers
