@@ -98,15 +98,19 @@ textarea {
 .ContedorPrincipal {
   margin-top: 2em;
   margin-bottom: 3em; }
-  .ContedorPrincipal .CuadroResultado table th {
-    text-align: center; }
-  .ContedorPrincipal .CuadroResultado table td {
-    text-align: center; }
-  .ContedorPrincipal .CuadroResultado table .Logo img {
-    margin: 1%;
-    margin-left: 10%;
-    height: 100px;
-    width: 100px; }
+  .ContedorPrincipal .CuadroResultado table {
+    border: 10px solid #bfbfbf; }
+    .ContedorPrincipal .CuadroResultado table tr {
+      border: 3px solid #bfbfbf; }
+    .ContedorPrincipal .CuadroResultado table th {
+      text-align: center; }
+    .ContedorPrincipal .CuadroResultado table td {
+      text-align: center; }
+    .ContedorPrincipal .CuadroResultado table .Logo img {
+      margin: 1%;
+      margin-left: 10%;
+      height: 100px;
+      width: 100px; }
 
 .logo {
   width: 100%;
