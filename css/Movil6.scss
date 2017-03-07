@@ -103,54 +103,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper{
+ background-color:#254061;
+}
+.nav-content{
+background-color:#7f7f7f;
+}
+
 .ContedorPrincipal{
-    margin-top: 3em;
-}
-
-.Formulario{
-    background-color:#000038;
-    margin: 3%;
-    opacity: 0.9;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:8%;
-    #FormularioDatos{
-      margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    .Navigacion{
+        margin:  0; 
+        padding: 0;
+        h3{
+            margin: 0;
+            padding:0;
+        }
     }
-    #correo{
-      background-color: #7ec401;
+    .CuadroResultado{
+        
+        border : 3px solid #bfbfbf;
+        .InformacionResultado{
+            h2{
+                font-size: 20px;
+                border: 0.5px solid #bfbfbf;
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+        .Resultado{
+            .Logos{
+                img{
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+            .Puntuacion{
+                text-align: center;
+                h3{
+                    font-size: 30px;
+                    text-align: center;
+                }
+                h4{
+                    font-size: 40px;
+                    text-align: center;
+                }
+            }
+        }
     }
-    button{
-      margin-left: 0;
-    }
-    button:hover{
-      margin-left: 0;
-
-    }
 }
 
 
 
-
-.btn{
-    margin: 1em;
-}
-.btn:hover{
-    background-color: #0d47a1;
-    margin: 1em;
-}
-.btn-Correo{
-    background-color:#7ec401;
-}
-.btn-Facebook{
-    background-color:#4c70ba;
-}
 .logo{
     width: 100%;
     height: auto;
     img{
-        width: 300px;
-        height: 170px;
+        width: 500px;
+        height: 300px;
     }
 }
 .page-footer{
@@ -158,10 +170,12 @@ textarea {
     width: 100%
 } 
 
-
-
-
-
+.logoCompetidores{
+   img{
+     width: 170px;
+    height: 100px;
+   }
+}
 /* ==========================================================================
    Formulario
    ========================================================================== */
@@ -195,7 +209,12 @@ textarea {
     position: absolute;
 }
 
-
+.right{
+    right: 0;
+}
+.left{
+    left: 0;
+}
 /*
  * Margenes y Manejadores de alturas
  */

@@ -103,65 +103,84 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper{
+ background-color:#254061;
+}
+.nav-content{
+background-color:#7f7f7f;
+}
+
 .ContedorPrincipal{
-    margin-top: 3em;
-}
-
-.Formulario{
-    background-color:#000038;
-    margin: 3%;
-    opacity: 0.9;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:8%;
-    #FormularioDatos{
-      margin-top: 1em;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
+    .BarraIzquierda{
+        height: 100%;
+        padding-bottom:12em;
+        .informacion{
+            h2{
+                font-size: 30px;
+            }
+        }
+        .sesion{
+            margin-top: 1em;
+        }     
     }
-    #correo{
-      background-color: #7ec401;
+    .ContenedorDatos{
+        .texto{
+            margin-top: 0;
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 20px;
+            }
+            h1,h2{
+                color:#595959;
+                margin: 0;
+                margin-top: 1em;
+            }
+        }
+        .temporisador{
+            opacity: 0.2;
+            margin-top: 3em;
+            padding: 3em;
+            margin-left: 18%;
+            background-color: #3a933a;
+            border-radius: 3em;
+            border: 5px solid #2b5b2b;
+            h2{
+                font-size: 60px;
+                margin: 0;
+                color: #f2f2f2;
+                strong{
+                
+                font-size: 100px;
+            }
+            }
+
+        }
     }
-    button{
-      margin-left: 0;
-    }
-    button:hover{
-      margin-left: 0;
-
-    }
 }
 
 
 
-
-.btn{
-    margin: 1em;
-}
-.btn:hover{
-    background-color: #0d47a1;
-    margin: 1em;
-}
-.btn-Correo{
-    background-color:#7ec401;
-}
-.btn-Facebook{
-    background-color:#4c70ba;
-}
 .logo{
+    margin-top: 2em;
     width: 100%;
     height: auto;
-    img{
-        width: 300px;
-        height: 170px;
+    img{ 
+        opacity: 0.3;
+        width: 400px;
+        height: 400px;
     }
 }
 .page-footer{
     padding: 0;
     width: 100%
 } 
-
-
-
-
-
 /* ==========================================================================
    Formulario
    ========================================================================== */
@@ -186,7 +205,13 @@ textarea {
 .Texto-Negro{
     color: #404040;
 }
-
+.Texto-Gris{
+    color: #818181;
+}
+.danger{
+    color: #cf2a0f;
+    font-size: 35px;
+}
 /*
  * Posiciones
  */
@@ -231,7 +256,7 @@ textarea {
     font-size: 20px;
 }
 .Titulo{
-    font-size: 30px;
+    font-size: 100px;
 }
 
 /*

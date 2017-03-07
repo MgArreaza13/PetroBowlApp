@@ -9,9 +9,10 @@
 
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<!-- Place favicon.ico in the root directory -->
-
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/materialize.min.css">
+		
+		<link href="signin.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/flexboxgrid.min.css">
 		<link rel="stylesheet" href="css/Movil2.css">
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -33,24 +34,18 @@
 				</div>
 				
 				 <div class="col s12 center-xs NoMargin Formulario ">
-					 <h1 class="Titulo Texto-Blaco"> Iniciar Sesion en PETROBOWL-SOFT</h1>
-					 <div class="row">
-						<form class="col s8 form">
-						  <div class="row">
-							<div class="input-field col s12 ">
-							  <input id="email" type="email" class="validate">
-							  <label for="email">Email</label>
-							</div>
-						  </div>
-						  <div class="row">
-							<div class="input-field col s12">
-							  <input id="password" type="password" class="validate">
-							  <label for="password">Password</label>
-							</div>
-						  </div>
-	  						<a class="waves-effect waves-light btn btn-Correo">Ingresar Con tu Correo</a><br>
-	  						<a class="waves-effect waves-light btn btn-Facebook">Ingresar Con Facebook</a>
-						</form>
+					 <h1 class="Titulo Texto-Blaco form-signin-heading"> Iniciar Sesion en <br>PETROBOWL-SOFT</h1>
+					 <div class="row center-xs">
+							<form class="form-signin center-xs" id="FormularioDatos" role="form">
+       						 
+      						  <input type="email" class="form-control" placeholder="Email address" required autofocus>
+        					<input type="password" class="form-control" placeholder="Password" required>
+       						 <label class="checkbox">
+         					 <input type="checkbox" value="remember-me"> Remember me
+        					</label>
+       					 <button class="btn btn-lg btn-primary btn-block" id="correo" type="submit">Ingresa con tu correo</button>
+       					 <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresa con Facebook</button>
+      						</form>
   						</div>
 				 </div>
 				

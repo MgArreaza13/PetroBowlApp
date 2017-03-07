@@ -89,48 +89,54 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-wrapper {
+  background-color: #254061; }
+
+.nav-content {
+  background-color: #7f7f7f; }
+
 .ContedorPrincipal {
-  margin-top: 3em; }
-
-.Formulario {
-  background-color: #000038;
-  margin: 3%;
-  opacity: 0.9;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 8%; }
-  .Formulario #FormularioDatos {
-    margin-top: 1em; }
-  .Formulario #correo {
-    background-color: #7ec401; }
-  .Formulario button {
-    margin-left: 0; }
-  .Formulario button:hover {
-    margin-left: 0; }
-
-.btn {
-  margin: 1em; }
-
-.btn:hover {
-  background-color: #0d47a1;
-  margin: 1em; }
-
-.btn-Correo {
-  background-color: #7ec401; }
-
-.btn-Facebook {
-  background-color: #4c70ba; }
+  margin-top: 2em;
+  margin-bottom: 3em; }
+  .ContedorPrincipal .Navigacion {
+    margin: 0;
+    padding: 0; }
+    .ContedorPrincipal .Navigacion h3 {
+      margin: 0;
+      padding: 0; }
+  .ContedorPrincipal .CuadroResultado {
+    border: 3px solid #bfbfbf; }
+    .ContedorPrincipal .CuadroResultado .InformacionResultado h2 {
+      font-size: 20px;
+      border: 0.5px solid #bfbfbf; }
+    .ContedorPrincipal .CuadroResultado .InformacionResultado h3 {
+      font-size: 30px; }
+    .ContedorPrincipal .CuadroResultado .Resultado .Logos img {
+      height: 150px;
+      width: 150px; }
+    .ContedorPrincipal .CuadroResultado .Resultado .Puntuacion {
+      text-align: center; }
+      .ContedorPrincipal .CuadroResultado .Resultado .Puntuacion h3 {
+        font-size: 30px;
+        text-align: center; }
+      .ContedorPrincipal .CuadroResultado .Resultado .Puntuacion h4 {
+        font-size: 40px;
+        text-align: center; }
 
 .logo {
   width: 100%;
   height: auto; }
   .logo img {
-    width: 300px;
-    height: 170px; }
+    width: 500px;
+    height: 300px; }
 
 .page-footer {
   padding: 0;
   width: 100%; }
+
+.logoCompetidores img {
+  width: 170px;
+  height: 100px; }
 
 /* ==========================================================================
    Formulario
@@ -161,6 +167,12 @@ textarea {
  */
 .PosicionAbsoluta {
   position: absolute; }
+
+.right {
+  right: 0; }
+
+.left {
+  left: 0; }
 
 /*
  * Margenes y Manejadores de alturas
